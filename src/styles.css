@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container */
+.student-container {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background-color: #00DF82;
+}
+
+nav a {
+    color: #030F0F;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #1b4343;
+}
+
+/* Student Card */
+.student-card {
+    padding: 10px 20px;
+    text-align: center;
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.student-card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.student-card button {
+    background: #00DF82;
+    color: #030F0F;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 14px;
+}
+
+.student-card button:hover {
+    background-color: #2ab67b;
+}
+
+
+.student-card button:disabled {
+    background-color: #509478;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/*Fav*/
+
+.fav-card {
+    padding: 15px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: black;
+}
+
+.fav-card p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fav-card button{
+    background: #FE6807;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 14px;
+}
+
+.fav-card button:hover {
+    background: #ac734d;
+}
+
+
+
